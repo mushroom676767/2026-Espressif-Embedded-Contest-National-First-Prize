@@ -72,8 +72,8 @@ USB OTG 的 GPIO20 保留给 D+，不要作为门锁输出。MIPI 摄像头通�
 - Windows 建议使用 ESP-IDF 安装器提供的终端；Linux/macOS 先加载所安装版本的 `export.sh`。执行 `idf.py --version` 确认当前环境。
 
 ```sh
-git clone https://github.com/liuchang925/esp32-p4-function-ev-board.git
-cd esp32-p4-function-ev-board/examples/esp_brookesia_phone
+git clone https://github.com/liuchang925/2026-Espressif-Embedded-Contest-National-First-Prize.git
+cd 2026-Espressif-Embedded-Contest-National-First-Prize/examples/esp_brookesia_phone
 idf.py --version
 idf.py set-target esp32p4
 idf.py reconfigure
