@@ -1,4 +1,4 @@
-# ESP32-P4 FOD 智能工具柜
+# 2026年嵌赛乐鑫赛道国家一等奖
 
 基于 **ESP32-P4 Function EV Board、ESP-IDF、LVGL 和 ESP-DL** 的智能工具柜设备端固件。它将人员身份认证、PPE 防护装备检测、柜门控制、工具视觉盘点和借还记录连接成一次完整操作，面向工具领用、归还及 FOD（Foreign Object Debris，外来物）管理场景。
 
