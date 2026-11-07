@@ -1,0 +1,17 @@
+{
+  "device_code": "DEMO-CABINET-001",
+  "image_size": [1280, 720],
+  "coordinate_format": "xyxy_normalized",
+  "calibration_photo_count": 12,
+  "slots": [
+    {"slot_no": 1, "bbox": [0.215104, 0.178356, 0.371549, 0.749884], "tool_class": "crimping_pliers", "class_id": 1},
+    {"slot_no": 2, "bbox": [0.373698, 0.138310, 0.536654, 0.637153], "tool_class": "hammer", "class_id": 7},
+    {"slot_no": 3, "bbox": [0.491341, 0.101736, 0.615365, 0.564120], "tool_class": "socket_screwdriver", "class_id": 2},
+    {"slot_no": 4, "bbox": [0.589323, 0.063542, 0.701432, 0.433449], "tool_class": "wrench", "class_id": 3},
+    {"slot_no": 5, "bbox": [0.668490, 0.011111, 0.833529, 0.395602], "tool_class": "slip_joint_pliers", "class_id": 5},
+    {"slot_no": 6, "bbox": [0.282357, 0.766782, 0.427995, 0.993171], "tool_class": "tape_measure", "class_id": 0},
+    {"slot_no": 7, "bbox": [0.454102, 0.609838, 0.702409, 0.756019], "tool_class": "screwdriver", "class_id": 6},
+    {"slot_no": 8, "bbox": [0.484505, 0.707523, 0.725456, 0.849884], "tool_class": "screwdriver", "class_id": 6},
+    {"slot_no": 9, "bbox": [0.735156, 0.428935, 0.968294, 0.685301], "tool_class": "diagonal_pliers", "class_id": 4}
+  ]
+}

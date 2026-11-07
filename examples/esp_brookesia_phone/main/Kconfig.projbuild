@@ -1,0 +1,25 @@
+menu "Example Configurations"
+    config EXAMPLE_ENABLE_SD_CARD
+        bool "Enable SD Card"
+        default y
+        help 
+            Enabling this option will initialize the SD card, so the SD card needs to be inserted into the slot. Additionally, if using the Video Player example, an MJPEG format video must be saved on the SD card.
+endmenu
+
+menu "Cloud Uploader"
+    config CLOUD_UPLOADER_URL
+        string "Backend base URL"
+        default ""
+
+    config CLOUD_UPLOADER_DEVICE_CODE
+        string "Device code"
+        default "DEMO-CABINET-001"
+
+    config CLOUD_UPLOADER_API_KEY
+        string "X-Device-Key"
+        default ""
+
+    config CLOUD_UPLOADER_INSPECTION_UPLOAD_PATH
+        string "Inspection image upload path"
+        default "/api/inspection/upload-and-analyze"
+endmenu

@@ -1,0 +1,9 @@
+{
+  "component": "espressif/esp-dl",
+  "version": "3.3.7",
+  "upstream_commit": "7a3d4c02e8b978b5d4b7ddb23dc68f42e56e83c7",
+  "file": "vision/recognition/dl_recognition_database.cpp",
+  "upstream_sha256_lf": "22ed3e52e7d3388c439527e729f70dbf7117373f6625ba9b605d071de3061024",
+  "patched_sha256_lf": "c06fdf82dd479c7f604d8613510ffc8d29d08711c501afe03c1e8b2ff25a2e29",
+  "patch_sha256": "4ad628e3fcb896c6381cdf192b445e13854ad3290db2927f6de3f5761647ebf3"
+}

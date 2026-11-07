@@ -1,0 +1,6 @@
+version: "0.1.0"
+license: "Apache-2.0"
+description: PPE ESPDet wrapper for helmet and goggles detection.
+dependencies:
+  espressif/esp-dl:
+    version: ">=3.1.0"

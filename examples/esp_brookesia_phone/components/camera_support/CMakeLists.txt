@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        camera/app_video.c
+    INCLUDE_DIRS
+        .
+    REQUIRES
+        driver
+        esp_video
+        esp32_p4_function_ev_board_noglib
+)

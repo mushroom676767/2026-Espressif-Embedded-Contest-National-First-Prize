@@ -1,0 +1,21 @@
+--- a/vision/recognition/dl_recognition_database.cpp
++++ b/vision/recognition/dl_recognition_database.cpp
+@@ -248,14 +248,14 @@
+     }
+     std::vector<result_t> results;
+     float sim;
+-    int i = 1;
+-    for (auto it = m_feats.begin(); it != m_feats.end(); it++, i++) {
++    for (auto it = m_feats.begin(); it != m_feats.end(); it++) {
+         sim = cal_similarity(it->feat, (float *)feat->data);
+         if (sim <= thr) {
+             continue;
+         }
+-        // results.emplace_back(it->id, sim);
+-        results.emplace_back(i, sim);
++        // Preserve the persistent database ID. A sequential list index breaks
++        // the user mapping after a deleted face leaves a gap in the database.
++        results.emplace_back(it->id, sim);
+     }
+     std::sort(results.begin(), results.end(), [](const result_t &a, const result_t &b) -> bool {
+         return a.similarity > b.similarity;

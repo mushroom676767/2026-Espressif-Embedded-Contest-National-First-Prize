@@ -1,0 +1,42 @@
+# Generated ESP-IDF files and downloaded components
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+sdkconfig.local*
+compile_commands.json
+dependencies.lock.old
+
+# Generated patched local override (created by tools/apply_esp_dl_patch.py)
+examples/esp_brookesia_phone/components/espressif__esp-dl/
+examples/esp_brookesia_phone/components/.esp-dl-patch-*/
+
+# Editor, agent, and temporary working directories
+.vscode/
+.idea/
+.claude/
+.codex-tmp/
+.worktrees/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.elf
+*.o
+*.a
+*.7z
+*.zip
+*.rar
+.DS_Store
+Thumbs.db
+
+# Device runtime data and local deployment secrets
+.env
+.env.*
+!.env.example
+face.db
+tool_records.bin
+tool_states.bin
+tool_detection_last.jpg
+*.pem
+*.key
