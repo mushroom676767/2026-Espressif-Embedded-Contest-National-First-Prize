@@ -46,7 +46,7 @@
 在已加载 ESP-IDF 环境的终端中执行。Windows 可使用 ESP-IDF 安装器提供的终端，Linux/macOS 先加载对应版本的 `export.sh`。
 
 ```sh
-git clone https://github.com/liuchang925/2026-Espressif-Embedded-Contest-National-First-Prize.git
+git clone https://github.com/mushroom676767/2026-Espressif-Embedded-Contest-National-First-Prize.git
 cd 2026-Espressif-Embedded-Contest-National-First-Prize/examples/esp_brookesia_phone
 
 idf.py --version
@@ -164,7 +164,7 @@ python main/fonts/check_font_coverage.py --project-root .
 
 ## 问题与贡献
 
-通过 [GitHub Issues](https://github.com/liuchang925/2026-Espressif-Embedded-Contest-National-First-Prize/issues) 反馈问题或提出建议。请附板卡型号、ESP-IDF 版本、复现步骤及相关日志，提交前移除密码、设备密钥和人员数据。
+通过 [GitHub Issues](https://github.com/mushroom676767/2026-Espressif-Embedded-Contest-National-First-Prize/issues) 反馈问题或提出建议。请附板卡型号、ESP-IDF 版本、复现步骤及相关日志，提交前移除密码、设备密钥和人员数据。
 
 文档修正、问题复现、硬件适配、模型与盘点规则改进都可以通过 Pull Request 提交。Fork、分支、检查和提交说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 

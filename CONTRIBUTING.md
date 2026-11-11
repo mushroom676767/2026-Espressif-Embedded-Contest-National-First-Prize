@@ -6,7 +6,7 @@
 
 ## 反馈问题或提出建议
 
-先搜索 [Issues](https://github.com/liuchang925/2026-Espressif-Embedded-Contest-National-First-Prize/issues) 是否已有同类问题，再通过 [New issue](https://github.com/liuchang925/2026-Espressif-Embedded-Contest-National-First-Prize/issues/new) 提交。
+先搜索 [Issues](https://github.com/mushroom676767/2026-Espressif-Embedded-Contest-National-First-Prize/issues) 是否已有同类问题，再通过 [New issue](https://github.com/mushroom676767/2026-Espressif-Embedded-Contest-National-First-Prize/issues/new) 提交。
 
 问题报告建议包含：
 
